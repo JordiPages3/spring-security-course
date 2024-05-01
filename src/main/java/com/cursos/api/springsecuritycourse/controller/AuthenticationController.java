@@ -27,6 +27,7 @@ public class AuthenticationController {
 
     }
 
+   //  @CrossOrigin
     @PostMapping("/authenticate")
      public ResponseEntity<AuthenticationResponse> authenticate(@RequestBody @Valid AuthenticationRequest authenticationRequest) {
 
